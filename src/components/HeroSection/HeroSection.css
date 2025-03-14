@@ -1,0 +1,163 @@
+/* HeroSection.css */
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh; /* Full viewport height */
+  background-color: #f9fbfd; /* Light background */
+  padding: 2rem;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.hero-section h1 {
+  font-size: 1rem; /* Smaller font size */
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 2rem;
+  padding: 0.2rem 0.7rem; /* Padding for background */
+  background-color: #e9ecef; /* Light gray background */
+  border-radius: 50px; /* Rounded corners */
+  display: inline-block; /* Ensure the background and border wrap the text */
+}
+
+.hero-section .tagline {
+  font-size: 4rem;
+  color: black;
+  margin-bottom: 1.5rem;
+  line-height: 1;
+  font-weight: bold;
+}
+
+.hero-section .tagline span {
+  font-weight: bold;
+  color: black; /* Accent color */
+}
+
+.hero-section .tagline a {
+  color: #555;
+  text-decoration: none;
+}
+
+.hero-section .tagline a:hover {
+  color: #555;
+}
+
+.hero-section .description {
+  font-size: 1.25rem;
+  color: #666;
+  margin-bottom: 2.5rem;
+  line-height: 1.2;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem; /* Space between buttons */
+}
+
+.cta-button {
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #007bff;
+  background-color: transparent;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.cta-button.outline {
+  background-color: transparent;
+  border: 2px solid #007bff;
+  color: #007bff;
+}
+
+.cta-button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+  color: #fff;
+}
+
+.cta-button.outline:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem; /* Space between icons */
+  margin-top: 20px;
+  text-align: center;
+  margin-left: 30px;
+}
+
+.social-icons a {
+  color: #333; /* Icon color */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-icons .icon {
+  font-size: 2.1rem; /* Adjust size as needed */
+  margin: 0 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+  color: #007bff; /* Icon hover color */
+}
+
+.icon {
+  font-size: 2rem; /* Icon size */
+}
+
+@media (max-width: 800px) {
+  .hero-section .tagline {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 690px) {
+  .hero-section .tagline {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 570px) {
+  .hero-section .tagline {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 490px) {
+  .cta-buttons {
+    flex-direction: column;
+    padding: 0.5rem 1.5rem;
+    font-size: rem;
+  }
+
+  .hero-section .tagline {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 440px) {
+  .hero-section {
+    height: 75vh;
+  }
+}
+
+@media (max-width: 420px) {
+  .hero-section {
+    height: 80vh;
+  }
+}
+
+@media (max-width: 325px) {
+  .hero-section {
+    height: 90vh;
+  }
+}
