@@ -24,7 +24,7 @@ const HeroSection = () => {
         <div className="cta-buttons">
           <button className="cta-button" onClick={handleScrollToProjects}>View My Work</button>
           <a
-            href="/FinalNewVishalResume.pdf" // Path to your resume file
+            href="/FinalNewVishalResume2.pdf" // Path to your resume file
             download="Vishal_Singh_Resume.pdf" // Rename the downloaded file
             className="cta-button outline"
           >

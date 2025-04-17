@@ -9,6 +9,8 @@ const skills = [
   "ReactJs",
   "Python",
   "C++",
+  "Django",
+  "Git/Github"
 ];
 
 const Skills = () => {

@@ -3,6 +3,7 @@ import "./Projects.css";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import Project1 from './Project1.jpeg'
 import Project2 from './Project2.jpeg'
+import Project3 from './Project3.jpg'
 
 const projects = [
   {
@@ -22,6 +23,15 @@ const projects = [
     codeLink: "https://github.com/HalfDeveloperVishal/Food-ordering-website",
     demoLink: "https://food-ordering-website-dxgt.vercel.app/",
     image: Project2, // Add image path
+  },
+  {
+    title: "SonicGear - A Earphone and Tech Gadget Platform",
+    description:
+      "SonicGear is a modern Django-based e-commerce platform specializing in earphones, headphones, and other tech gadgets. It provides users with a smooth shopping experience, featuring categorized products, dynamic carts, user authentication, and a responsive UI. Perfect for tech lovers and audio gear enthusiasts looking for a seamless online store experience.",
+      technologies: ["HTML", "CSS", "JavaScript", "Django"],
+    codeLink: "https://github.com/HalfDeveloperVishal/SonicGear---E-Commerce/tree/main",
+    demoLink: "#",
+    image: Project3, // Add image path
   },
 ];
 
