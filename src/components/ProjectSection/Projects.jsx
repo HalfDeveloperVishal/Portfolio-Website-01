@@ -30,7 +30,7 @@ const projects = [
       "SonicGear is a modern Django-based e-commerce platform specializing in earphones, headphones, and other tech gadgets. It provides users with a smooth shopping experience, featuring categorized products, dynamic carts, user authentication, and a responsive UI. Perfect for tech lovers and audio gear enthusiasts looking for a seamless online store experience.",
       technologies: ["HTML", "CSS", "JavaScript", "Django"],
     codeLink: "https://github.com/HalfDeveloperVishal/SonicGear---E-Commerce/tree/main",
-    demoLink: "#",
+    demoLink: "https://sonicgear-e-commerce-01.onrender.com/",
     image: Project3, // Add image path
   },
 ];
