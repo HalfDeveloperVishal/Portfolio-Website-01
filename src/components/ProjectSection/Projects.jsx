@@ -4,6 +4,7 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import Project1 from './Project1.jpeg'
 import Project2 from './Project2.jpeg'
 import Project3 from './Project3.jpg'
+import Project4 from './Project4.jpg'
 
 const projects = [
   {
@@ -29,9 +30,18 @@ const projects = [
     description:
       "SonicGear is a modern Django-based e-commerce platform specializing in earphones, headphones, and other tech gadgets. It provides users with a smooth shopping experience, featuring categorized products, dynamic carts, user authentication, and a responsive UI. Perfect for tech lovers and audio gear enthusiasts looking for a seamless online store experience.",
       technologies: ["HTML", "CSS", "JavaScript", "Django"],
-    codeLink: "https://github.com/HalfDeveloperVishal/SonicGear---E-Commerce/tree/main",
+    codeLink: "https://github.com/HalfDeveloperVishal/SonicGear---E-Commerce-01",
     demoLink: "https://sonicgear-e-commerce-01.onrender.com/",
     image: Project3, // Add image path
+  },
+  {
+    title: "TechBlog - A Blog Website",
+    description:
+      "TechBlog is a full-stack blog platform built using Django and ReactJS, designed to allow users to create, view, and manage posts with category support. It features interactive capabilities such as liking posts and adding comments to foster user engagement. The platform also personalizes the experience by displaying posts specific to each logged-in user, with secure authentication-based access to manage content effectively.",
+      technologies: ["Django", "Rest API", "ReactJS", "Bootstrap"],
+    codeLink: "https://github.com/HalfDeveloperVishal/TechBlog---A-Blog-Webiste",
+    demoLink: "#",
+    image: Project4, // Add image path
   },
 ];
 
