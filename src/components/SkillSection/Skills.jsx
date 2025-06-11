@@ -10,6 +10,8 @@ const skills = [
   "Python",
   "C++",
   "Django",
+  "Django Rest Framework",
+  "Rest APIs",
   "Git/Github"
 ];
 
